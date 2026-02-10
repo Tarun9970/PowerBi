@@ -40,3 +40,4 @@ Peak Load Flag: For peak load flags, As per industry standard, a heuretic of 1.2
 Average Load by Hour
 Average Load by Day of Week
 Seasonality Analysis: Are there recurring high-load periods across the year that justify long-term infrastructure investment? 
+Developed a grid stress index to identify zones and time periods operating near peak load. The analysis highlights high risk zones and recurring stress periods to support infrastructure investment planning.
