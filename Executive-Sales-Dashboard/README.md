@@ -1,4 +1,5 @@
 Executive Sales Performance Dashboard
+My first dashboard!
 
 Data set: Transactional sales data covering orders, customers, products, payment types, and order dates.
 The dataset includes revenue, quantities sold, payment methods, and basic customer and product attributes.
