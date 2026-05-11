@@ -39,5 +39,8 @@ Load Above Average
 Peak Load Flag: As per industry standards, a heuristic of 1.25 is used in the formula to identify significant spikes. Meaning, if the current power consumption is 25% higher than the average, it is flagged as a Peak Load (1), it's normal (0).
 Average Load by Hour
 Average Load by Day of Week
+
+
 Seasonality Analysis: Are there recurring high-load periods across the year that justify long-term infrastructure investment? 
+
 Developed a grid stress index to identify zones and time periods operating near peak load. The analysis highlights high-risk zones and recurring periods of stress to support infrastructure investment planning.
