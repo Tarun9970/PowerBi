@@ -1,4 +1,4 @@
-It is a Work in Progress!
+Morocco National Power Grid: Suggestion to expand and risk analysis
 Work done so far: 
 
 Dataset given: Electricity consumption in Morocco measured at 10 minute intervals across 3 zones, including environmental factors such as temperature, humidity, and wind speed.
@@ -14,7 +14,7 @@ Seasonal and intraday demand behavior
 Intra year risk analysis to support infrastructure investment and outage prevention planning.
 
 Analysis Pipeline: 
-Data exploration → Data cleaning and engineering → Measures and Metric → Visualising
+Data exploration → Data cleaning and engineering → Measures and metrics → Visualising
 
 Core Analysis: 
 National load trends
@@ -24,20 +24,20 @@ Zone contribution to peaks
 Load volatility
 
 Supporting analysis: 
-Temperature, wind speed, DiffuseFlows and humidity correlation to consumption. 
+Temperature, wind speed, DiffuseFlows and humidity correlate to consumption. 
 Policy-level insight
 
 Data Engineering: 
-I normalized the single table CSV file into a star schema to support scalable time based and zone based analysis. Unpivoted the Zone column for ease of use and adding on measures later on. 
+I normalized the single table CSV file into a star schema to support scalable time-based and zone-based analysis. Unpivoted the Zone column for ease of use and adding on measures later on. 
 
 Measures Created: 
 National Consumption
-Average National COnsumption
+Average National Consumption
 Average Load
 Peak Load
 Load Above Average
-Peak Load Flag: For peak load flags, As per industry standard, a heuretic of 1.25 is used in the formula to identify significant spikes. Meaning, If the current power consumption is 25% higher than the average, it is flagged as a Peak Load (1), otherwise it's normal (0).
+Peak Load Flag: As per industry standards, a heuristic of 1.25 is used in the formula to identify significant spikes. Meaning, if the current power consumption is 25% higher than the average, it is flagged as a Peak Load (1), it's normal (0).
 Average Load by Hour
 Average Load by Day of Week
 Seasonality Analysis: Are there recurring high-load periods across the year that justify long-term infrastructure investment? 
-Developed a grid stress index to identify zones and time periods operating near peak load. The analysis highlights high risk zones and recurring stress periods to support infrastructure investment planning.
+Developed a grid stress index to identify zones and time periods operating near peak load. The analysis highlights high-risk zones and recurring periods of stress to support infrastructure investment planning.
